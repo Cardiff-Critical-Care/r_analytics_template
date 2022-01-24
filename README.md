@@ -6,10 +6,10 @@ You must have git installed on your machine.
 
 ## Usage
 
-All analytical projects must use a standard template. This one is for use when Python is the chosen language. To get started, clone this repository to your local machine:
+All analytical projects must use a standard template. This one is for use when R is the chosen language. To get started, clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/Cardiff-Critical-Care/py_analytics_template.git
+git clone https://github.com/Cardiff-Critical-Care/r_analytics_template.git
 ```
 
 Rename the project folder with your project title e.g. 'TestProject'. Then associate your project with a GitHub repository on the teams GitHub account:
