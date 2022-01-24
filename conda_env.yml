@@ -1,9 +1,13 @@
-name: ICUpy
+name: ICUr
+channels:
+ - conda-forge
 dependencies:
-  - pandas
-  - pytest
-  - pytest-cov
-  - numpy
+  - python=3.9
+  - r-base=4.1
+  - r-tidyverse
+  - r-rstudio
+  - pip
+  - ipython
   - nbconvert
   - nbformat
   - jupyter
@@ -11,10 +15,3 @@ dependencies:
   - pip:
     - black
     - pre-commit
-    - joblib
-    - matplotlib
-    - scipy
-    - scikit-learn
-    - seaborn
-    - pingouin
-    - jupyter_contrib_nbextensions
