@@ -1,0 +1,20 @@
+name: ICUpy
+dependencies:
+  - pandas
+  - pytest
+  - pytest-cov
+  - numpy
+  - nbconvert
+  - nbformat
+  - jupyter
+  - jupyterlab
+  - pip:
+    - black
+    - pre-commit
+    - joblib
+    - matplotlib
+    - scipy
+    - scikit-learn
+    - seaborn
+    - pingouin
+    - jupyter_contrib_nbextensions
